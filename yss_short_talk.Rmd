@@ -3,8 +3,7 @@ title: "Making it a fab five minutes"
 subtitle: "Some handy tips and tricks"
 author: 
   -   "Deirdre Toher, University of the West of England, Bristol"
-  -   "mastodon: @dtoher@mastodon.ie"
-  -   "twitter: @dtoher"
+  -   "@dtoher@mastodon.ie; twitter: @dtoher"
 date: "2023-05-05"
 output:
   xaringan::moon_reader:
@@ -14,6 +13,7 @@ output:
       highlightStyle: style-mono-light
       highlightLines: true
       countIncrementalSlides: false
+    self_contained: true
 ---
 
 
@@ -21,6 +21,10 @@ output:
 options(htmltools.dir.version = FALSE)
 library(xaringanExtra)
 library(xaringanthemer)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
 ```
 
 
@@ -38,26 +42,117 @@ xaringanExtra::use_fit_screen()
 
 
 ```{r setcolour, echo=FALSE, include=FALSE}
-style_mono_accent(base_color = "#958CB3",text_font_size = "1.75rem")
+style_mono_accent(base_color = "#958CB3",text_font_size = "1.75rem",inverse_link_color="#FFFFFF")
 
 ```
 
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
+```
+
+
+```{r xaringan-banner, echo=FALSE}
+xaringanExtra::use_banner(
+  bottom_left = "bit.ly/my-awesome-talk",
+  exclude = "title-slide"
+)
+```
+
+
+
+# What's the point?
+
+- Why do a short talk / rapid fire talk?
+
+.pull-left[### Your suggestions
+
+.can-edit.key-audienceReasons[
+- thing one
+- thing two
+]]
+
+--
+
+.pull-right[### My ideas
+
+- exposure
+- feedback
+- prizes!
+
+]
+
+---
 
 # Setting Yourself Up to Fail
 
 - Too many slides
+--
+
 - Too many messages
-- Too much detail
+--
+
+- Too much information
+
+--
   - text
+--
+
   - mathematics
+--
+
   - graphics
-  
+
+
 ---
 
 # Prepare for success
 
 - One key message
+--
+
 - Tempt and tease
+--
+
 - Advertise rather than explain
+--
+
 - Link to details
+
+
+---
+
+# Preparing for your talk
+
+- Set up autoplay for timings‽
+--
+
+- Rehearse those timings
+--
+
+- Create short url to talk slides
+
+--
+
+  - Put link at start / at foot of each slide
+--
+
+  - Publish link in advance!
+--
+
+  - Advertise!
+ 
+  
+
+---
+
+# Short talk ≠ Other types of talk
+
+
+- Redesign from scratch
+--
+
+- Focus on key idea
+--
+
+- Don't introduce what you'll say / recap what you said!
 
