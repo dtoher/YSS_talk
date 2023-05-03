@@ -1,0 +1,186 @@
+---
+title: "Making it a fab five minutes"
+subtitle: "Some handy tips and tricks"
+author: 
+  -   "Deirdre Toher, University of the West of England, Bristol"
+  -   "@dtoher@mastodon.ie; twitter: @dtoher"
+date: "2023-05-05"
+output:
+  xaringan::moon_reader:
+    css: ["xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: style-mono-light
+      highlightLines: true
+      countIncrementalSlides: false
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(xaringanExtra)
+library(xaringanthemer)
+library(emo)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
+```{r webcam, echo=FALSE}
+xaringanExtra::use_webcam(width=250,height=250, margin="0em")
+```
+
+```{r xaringan-fit-screen, echo=FALSE}
+xaringanExtra::use_fit_screen()
+```
+
+
+```{r setcolour, echo=FALSE, include=FALSE}
+style_mono_accent(base_color = "#958CB3",text_font_size = "1.75rem",inverse_link_color="#FFFFFF")
+
+```
+
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
+```
+
+
+```{r xaringan-banner, echo=FALSE}
+xaringanExtra::use_banner(
+  bottom_left = "https://dtoher.github.io/YSS_talk/",
+  exclude = "title-slide"
+)
+```
+
+
+
+# What's the point?
+
+Why do a rapid fire talk?
+
+.pull-left[### My ideas
+
+- cv
+- exposure
+- feedback
+- prizes!
+
+]
+--
+
+.pull-right[### Your additional suggestions
+
+.can-edit.key-audienceReasons[
+- thing one
+- thing two
+]]
+
+
+---
+
+# Setting Yourself Up to Fail
+
+- Too many slides
+--
+
+- Too many messages
+--
+
+- Too much information
+
+--
+  - text
+--
+
+  - mathematics
+--
+
+  - graphics
+
+
+---
+
+# Prepare for success
+
+- One key message
+--
+
+- Tempt and tease
+--
+
+- Advertise rather than explain
+--
+
+- Link to details
+
+
+---
+
+# Preparing for your talk
+
+- Set up autoplay for timings‽
+--
+
+- Rehearse those timings
+--
+
+- Create short url for your slides
+--
+
+  - Put link at start / at foot of each slide
+--
+
+  - Publish link in advance!
+--
+
+  - Advertise!
+ 
+  
+
+---
+
+# Short talk ≠ Other types of talk
+
+
+- Redesign from scratch
+--
+
+- Focus on key idea
+
+- Possibly in the form of a worked example
+
+--
+
+- Don't:
+
+  -   introduce what you'll say 
+  -   recap what you said!
+
+---
+
+# Being Prepared
+
+- format; need to check!
+  - html (should be self contained)
+  - pdf
+  - powerpoint
+- send current version of file to the desk day before
+- last minute updates easier if online with short html link to site `r ji("grinning face")`
+
+---
+
+# Standing Out (in a good way)
+
+- Find out your chair in advance
+  -   Try to talk to them in advance
+- Think about accessibility
+- Stick to time
+- Be available for questions later
+- Perhaps end with link to technical paper?
