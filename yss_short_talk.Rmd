@@ -1,0 +1,63 @@
+---
+title: "Making it a fab five minutes"
+subtitle: "Some handy tips and tricks"
+author: 
+  -   "Deirdre Toher, University of the West of England, Bristol"
+  -   "mastodon: @dtoher@mastodon.ie"
+  -   "twitter: @dtoher"
+date: "2023-05-05"
+output:
+  xaringan::moon_reader:
+    css: ["xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: style-mono-light
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(xaringanExtra)
+library(xaringanthemer)
+```
+
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
+```{r webcam, echo=FALSE}
+xaringanExtra::use_webcam(width=250,height=250, margin="0em")
+```
+
+```{r xaringan-fit-screen, echo=FALSE}
+xaringanExtra::use_fit_screen()
+```
+
+
+```{r setcolour, echo=FALSE, include=FALSE}
+style_mono_accent(base_color = "#958CB3",text_font_size = "1.75rem")
+
+```
+
+
+# Setting Yourself Up to Fail
+
+- Too many slides
+- Too many messages
+- Too much detail
+  - text
+  - mathematics
+  - graphics
+  
+---
+
+# Prepare for success
+
+- One key message
+- Tempt and tease
+- Advertise rather than explain
+- Link to details
+
